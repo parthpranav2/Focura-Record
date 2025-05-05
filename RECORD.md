@@ -1,5 +1,12 @@
 # Focura-Record
 
+30/4/2015
+Parth
+-Create user activity
+-Sign in activity
+-Custom splah screen
+-Initial activity sorting
+
 2/5/2025
 Parth
 -FeatureSelector
