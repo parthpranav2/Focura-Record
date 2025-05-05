@@ -7,3 +7,7 @@ Parth
 -Profile activity
 -Settings activity
 -Signout functionality
+
+5/5/2025
+-Firebase Authentication
+-adding basic padding to all existing fragments and activities 
