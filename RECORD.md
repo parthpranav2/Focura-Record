@@ -25,7 +25,8 @@ Parth
 5/5/2025
 Parth
 -Firebase Authentication
--adding basic padding to all existing fragments and activities 
+-Adding basic padding to all existing fragments and activities 
+-Create account using firebase auth (using google acc as ref
 
 4/5/2025
 shrishti 
