@@ -29,4 +29,4 @@ Parth
 
 4/5/2025
 shrishti 
--will discuss with ayush adn decide the brand color and typography
+-will discuss with ayush and decide the brand color and typography
