@@ -26,3 +26,7 @@ Parth
 Parth
 -Firebase Authentication
 -adding basic padding to all existing fragments and activities 
+
+4/5/2025
+shrishti 
+-will discuss with ayush adn decide the brand color and typography
