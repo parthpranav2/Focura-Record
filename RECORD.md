@@ -36,3 +36,15 @@ All
 -finalised the rough user journey of app
 -finalised upon how the auditory sample space (lyrical music) be served to user
 -brain stormed upon how to increase difficulty in visual amd auditory modes
+
+7/5/2025
+Parth
+-Portfolio activity
+-Setting activity)
+-View Pager 2 implementation in Auditory main,Visual main
+-Auditory and Visual Home fragment
+-Auditory and Visual Leaderboard fragment
+-Instrument Sound activity
+-finalising the top dock menu {Streak,xps,life} for both auditory and visual
+-Streak activity
+-XPS activity
