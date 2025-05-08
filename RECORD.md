@@ -48,3 +48,9 @@ Parth
 -finalising the top dock menu {Streak,xps,life} for both auditory and visual
 -Streak activity
 -XPS activity
+
+8/5/2025
+Parth
+-Finalised instruments list
+-Curated sample spaces (wav files) of all instruments
+-Added back button to all activities
