@@ -59,3 +59,7 @@ Parth
 Parth
 -Instrument sounds preview
 -Removal of Feature Selector Activity
+
+13/5/2025
+Parth
+-Forget password (authentication by registered phonenumber verification)
