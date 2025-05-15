@@ -68,3 +68,7 @@ Parth
 15/05/2025
 shirin
 - on week 3 of course 2 of DL
+
+Parth
+-UI of Login Screen Implemented
+-Made a sample app using free music api
