@@ -76,3 +76,11 @@ Parth
 16/05/2025
 Parth
 -UI of Create Account Implemented 
+
+17/05/2025
+Parth
+-UI implementation of 
+    -instrument sounds
+    -authentication through phone number
+    -custom splash,on boarding
+-Icon implementation
