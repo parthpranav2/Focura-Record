@@ -84,3 +84,7 @@ Parth
     -authentication through phone number
     -custom splash,on boarding
 -Icon implementation
+
+19/06/2025
+Parth
+-Minor improvements
