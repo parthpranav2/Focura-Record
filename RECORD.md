@@ -98,8 +98,21 @@ Parth
 23/05/2025
 Parth
 -Secessfully tested youtube video to audio converter and downloader api
--Seccessfully implemented YT downloader api in app 
+-Sucessfully implemented YT downloader api in app and made a project on it
 
-24/5/2025
+25/05/2025
 Soumik
 -Joined the project
+
+Parth
+-Sucessfully tested spotify track downloader
+-Sucessfully implemented the spotify track downloader API and made a project on it
+
+Issues solved & experience gained(*)
+*Learned to use "Postman" for API end point testing 
+*Make "ApiResponse" as the primary data class if there are more than one branches at the initial data structure tree in JSON
+*Learned to use "HttpLoggingInterceptor" for debugging
+*Realised the value of logging while debugging
+
+
+
