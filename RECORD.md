@@ -100,6 +100,11 @@ Parth
 -Secessfully tested youtube video to audio converter and downloader api
 -Sucessfully implemented YT downloader api in app and made a project on it
 
+24/05/2025
+Parth
+-Testing of spotify track search, download API
+-Worked on the project which integrates the above API
+
 25/05/2025
 Soumik
 -Joined the project
