@@ -1,5 +1,13 @@
 Easy
+-Images occupying center of image
+-Graphic which req a larger rectangle to encapsulate
+-objects which are completely visible
 
 Medium
+-start focusing on objects which are far from center of stock but not too far and ends of image
+-Graphic which req a intermediate rectangle to encapsulate
 
 Hard
+-Images occupying corners of image
+-Graphic which req a smaller rectangle to encapsulate
+-objects which are partially visible
