@@ -1,5 +1,56 @@
+NOTE: * "Same kind" in the case of instruments means = instruments having same format of vibration/ sound generation 
+      eg- Wind = shehnai, flute
+          String = Guitar, Piano
+          Percussion = Drum set, Tabla, Clap
+      * We will not classify "Bass" in any music as they are present nearly in every track , so removing the bass will be the process which we have to perform for all tracks
+        (api/Websit/Model URL = " " )
+      *There will be some MIDI/Electronically generated components in music (beats) which we have to ignore... we are focussing on just the conventional instruments
+        {include this kind of beats in percussion}
+
+
+
 Easy
+(Classification)
+- we just have to devide the instruments into Wind, String, Percussion
+- No vocals
+- Single Instrument
+
+(Expected Answer by user)
+  -Type of instrument (wind, string, percussin/Leather)
+
+(Interface)
+-Single correct option type
+
+
 
 Medium
+A particular part of a track will be classified in this category if the highlightened instruments is that of a same kind
+eg- 1.Luteron Ka Lutera | Kalank Title Cover (https://www.youtube.com/watch?v=ktlHjOl5SMs) -> 0:00-1:30 {prominent instrument : strings}
+    2.Yeh Tune Kya Kiya Song Once upon A Time In Mumbaai Dobara (https://www.youtube.com/watch?v=w9Qo6p4XsXE)  -> 0:00-2:00 {prominent instrument : percussion}
+(Classification)
+1.If there are vocals
+- 2-3 instruments (EXCLUDING BASS)
+-Identify exact or near exact instrument
+
+(Idea for implementation)
+-First we have to apply a model/api which will remove the vocals completely from the track (https://vocalremover.org/)
+-Select the track which will have same kind of instruments playing 
+-
+
+(Interface)
+-Single correct option type
+
+
 
 Hard
+(Classification)
+eg- Ilahi (https://www.youtube.com/watch?v=fdubeMFwuGs)
+-Multiple instruments of different types
+-Vocals
+-Speedy (Optional)
+-Many instruments not playing throughout the track 
+-Bass Significant
+
+(Interface)
+-Multicorrect option type
+
