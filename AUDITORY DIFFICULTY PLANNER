@@ -3,17 +3,21 @@ NOTE: * "Same kind" in the case of instruments means = instruments having same f
           String = Guitar, Piano
           Percussion = Drum set, Tabla, Clap
       * We will not classify "Bass" in any music as they are present nearly in every track , so removing the bass will be the process which we have to perform for all tracks
-        (api/Websit/Model URL = " " )
+        (api/Websit/Model URL = " " ,will try to perform this operation from the app dev end )
       *There will be some MIDI/Electronically generated components in music (beats) which we have to ignore... we are focussing on just the conventional instruments
         {include this kind of beats in percussion}
-
+      *The processed wav file which will be used as input to the main instrument identifier model will not contain the vocals 
+        ((will try to perform this operation from the app dev end)}
 
 
 Easy
+eg- 1.Tum hi ho (https://www.youtube.com/watch?v=Umqb9KENgmk) -> 0:00-0:10
+    2. Hamari adhuri kahani (https://www.youtube.com/watch?v=sVRwZEkXepg) -> 0:00-0:39
+    
 (Classification)
 - we just have to devide the instruments into Wind, String, Percussion
 - No vocals
-- Single Instrument
+- 1-2 Instruments (EXCLUDING BASS)
 
 (Expected Answer by user)
   -Type of instrument (wind, string, percussin/Leather)
@@ -44,7 +48,8 @@ eg- 1.Luteron Ka Lutera | Kalank Title Cover (https://www.youtube.com/watch?v=kt
 
 Hard
 (Classification)
-eg- Ilahi (https://www.youtube.com/watch?v=fdubeMFwuGs)
+eg- 1.Ilahi (https://www.youtube.com/watch?v=fdubeMFwuGs)
+
 -Multiple instruments of different types
 -Vocals
 -Speedy (Optional)
