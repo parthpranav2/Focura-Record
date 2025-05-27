@@ -121,6 +121,12 @@ Issues solved & experience gained(*)
 
 
 26/05/2025
+Parth
 -Code review of API integration projects
 
+27/05/2025
+Parth
+-Decided flow of audio file processing for different difficulty levels
+-Onboarding activity creation
+-Onboarding activity ui implementation
 
