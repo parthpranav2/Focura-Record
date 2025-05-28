@@ -130,3 +130,8 @@ Parth
 -Onboarding activity creation
 -Onboarding activity ui implementation
 
+28/05/2025
+Parth
+-Implemented music track downloader in the main project
+-made the pilot project to determine the coordinates of the touch on image view
+
