@@ -10,6 +10,15 @@ NOTE: * "Same kind" in the case of instruments means = instruments having same f
         ((will try to perform this operation from the app dev end)}
 
 
+INPUT TYPE / Q TYPE :
+{push type (a track will be played and the instrument which we have to odentofy will be mentioned. there will be a push button which the user will push when that instrumet 
+is played. the time lag betweem the instrument played and tge user identiies it will be used to give points)}
+{single correct}
+{multibcorrect}
+
+Pre filter for limitimg tracks search will be based on
+-Beats Per Minute 
+
 Easy
 eg- 1.Tum hi ho (https://www.youtube.com/watch?v=Umqb9KENgmk) -> 0:00-0:10
     2. Hamari adhuri kahani (https://www.youtube.com/watch?v=sVRwZEkXepg) -> 0:00-0:39
