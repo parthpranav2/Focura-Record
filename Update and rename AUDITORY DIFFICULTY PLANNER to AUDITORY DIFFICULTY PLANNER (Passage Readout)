@@ -1,0 +1,37 @@
+Format
+-Full passage readout
+-Complete line readout ,with blank spaces to be filled.
+-Complete sentence formation, sentence spoken in advance and options provided to help complete form the original sentence
+
+
+{Params}
+-word limit
+-#speech speed
+
+{Difficulty Control}
+-Speech speed
+-Question format
+-Paragraph size
+
+{Question format}
+-Single Correct 
+-Fill In the blank (medium) [without options, and with options]
+-Multi Correct
+-Textual
+
+
+*Listning xcent
+
+-Synonym
+-Antonym
+
+Easy
+-Single correct
+
+Medium
+-Fill In the blank
+-Synonym
+-Antonym
+-Audio speed increase
+
+Difficulty
