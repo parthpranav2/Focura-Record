@@ -39,7 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="Speak"
-        android:layout_marginTop="24dp" />
+        android:layout_marginTop="24dp"
+        android:enabled="false"/>
 
     <SeekBar
         android:id="@+id/speedSeekBar"
@@ -55,6 +56,21 @@
         android:text="Speech Speed"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xcent"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/cmbSelectedLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/locale_tags"
+        android:visibility="gone"
         />
 
     <!--<TextView

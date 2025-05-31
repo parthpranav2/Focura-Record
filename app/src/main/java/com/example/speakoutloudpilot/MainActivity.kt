@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() , TextToSpeech.OnInitListener {
         findViewById<Button>(R.id.btnGenerate).setOnClickListener {
             Log.d(TAG, "Generate button pressed")
             generateStory(findViewById<EditText>(R.id.txtWordCount).text.toString())
+            findViewById<Button>(R.id.btnSpeak).isEnabled=true
         }
 
         findViewById<Button>(R.id.btnSpeak).setOnClickListener {
