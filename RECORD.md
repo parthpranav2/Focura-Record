@@ -135,8 +135,13 @@ Parth
 -Implemented music track downloader in the main project
 -made the pilot project to determine the coordinates of the touch on image view
 
+29/05/2025
+Parth
+-Made a pilot project to run a track on predetermined track start and end point annotations fed through a CSV file for single instrument determination
+
 30/05/2025
 All
 -Revised the auditory section basis
 -Undone the unrelated provisions in auditory section in app
+-Ui implementation of auditory (everything except recycler view)
 
