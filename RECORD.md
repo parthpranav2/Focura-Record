@@ -135,3 +135,8 @@ Parth
 -Implemented music track downloader in the main project
 -made the pilot project to determine the coordinates of the touch on image view
 
+30/05/2025
+All
+-Revised the auditory section basis
+-Undone the unrelated provisions in auditory section in app
+
