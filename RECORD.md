@@ -145,3 +145,7 @@ All
 -Undone the unrelated provisions in auditory section in app
 -Ui implementation of auditory (everything except recycler view)
 
+31/05/2025
+Parh
+-Gemini api integration and pilot project completion based on decided parameters and features. 
+-Implementation of ui of visual and auditory home screen fragmnet recycler view. 
