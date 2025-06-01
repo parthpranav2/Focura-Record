@@ -149,3 +149,8 @@ All
 Parh
 -Gemini api integration and pilot project completion based on decided parameters and features. 
 -Implementation of ui of visual and auditory home screen fragmnet recycler view. 
+
+01/06/2025
+Parth
+-Leaderboard ui implementation of auditory and visual
+-ui improvements and detailing
