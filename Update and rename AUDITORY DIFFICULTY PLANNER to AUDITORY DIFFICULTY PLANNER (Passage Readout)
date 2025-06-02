@@ -1,12 +1,12 @@
 Format
--Full passage readout.Single correct(FPR_1)
+-Full passage readout.Multi correct(FPR_1)
   0.6x -> +5xp for each correct ans
   0.8x -> +8xp for each correct ans
 
--Full passage readout.Multi correct(FPR_2)
+-Full passage readout.Single correct(FPR_2)
   0.6x -> +10xp for each correct ans
 
--Full passage readout.Write as many as you can(FPR_3)
+//-Full passage readout.Write as many as you can(FPR_3)
   0.6x -> +20xp for each correct ans
 
 -Complete line readout ,with blank spaces to be filled.{options provided}(CLR_1) 
@@ -19,9 +19,16 @@ Format
 -Complete sentence formation, sentence spoken in advance and options provided to help complete form the original sentence.(CSF)
   0.6x -> +8xp for each correct ans
 
-formula of xp 
-count of particular q type is represented by its abbreveation
-(FPR_1*5  +  FPR_2*10  +  FPR_3*20  +  CLR_1*2  +  CLR_2*4  +  CSF*8) + (FPR_1  + FPR_2  + FPR_3  + CLR_1  +  CLR_2  +  CSF)  *  (SPEED - 0.6)  *  (30/2)
+Trend
+Word count 
+-FPR_1_WC -> rise by 5 after every (0.6x->10,0.8x->8,1.0x->6...) levels (relatively difficult compared to FPR_2)
+-FPR_2_WC -> rise by 5 after every 5 levels (Easier),(Start point : 0.6x->10,0.8x->15,1x->20,1.2x->25)
+//-FPR_3_WC -> rise by 10 after every 10 levels
+
+Formula of xp 
+-Count of particular q type is represented by its abbreveation (FPR_1,FPR_2,FPR_3,CLR_1,CLR_2,CSF)
+-Word count is represented by (FPR_1_WC,FPR_2_WC,FPR_3_WC)
+(FPR_1*(5+(FPR_1_WC-10)*1)  +  FPR_2*(10+(FPR_2_WC-10)*2)   +  CLR_1*2  +  CLR_2*4  +  CSF*8) + (FPR_1  + FPR_2   + CLR_1  +  CLR_2  +  CSF) * (SPEED - 0.6) * (30/2)
 
 wordCount<time<NoOfQ
 
@@ -47,7 +54,7 @@ change in every 2 simmilar
 -Single Correct 
 -Fill In the blank (medium) [without options, and with options]
 -Multi Correct
--Textual
+//-Textual
 
 
 *Listning xcent
