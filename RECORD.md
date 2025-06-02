@@ -154,3 +154,10 @@ Parh
 Parth
 -Leaderboard ui implementation of auditory and visual
 -ui improvements and detailing
+
+02/06/2025
+Parth
+-Worked on auditory readout level planner 
+-Implemented top sheet fragment for lives remaining
+-profile ui completion
+-settings ui completion
