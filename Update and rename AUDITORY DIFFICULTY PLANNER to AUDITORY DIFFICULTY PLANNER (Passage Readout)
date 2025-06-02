@@ -1,7 +1,37 @@
 Format
--Full passage readout
--Complete line readout ,with blank spaces to be filled.
--Complete sentence formation, sentence spoken in advance and options provided to help complete form the original sentence
+-Full passage readout.Single correct(FPR_1)
+  0.6x -> +5xp for each correct ans
+  0.8x -> +8xp for each correct ans
+
+-Full passage readout.Multi correct(FPR_2)
+  0.6x -> +10xp for each correct ans
+
+-Full passage readout.Write as many as you can(FPR_3)
+  0.6x -> +20xp for each correct ans
+
+-Complete line readout ,with blank spaces to be filled.{options provided}(CLR_1) 
+  0.6x -> +2xp for each correct ans
+  0.8x -> +3xp for each correct ans
+
+-Complete line readout ,with blank spaces to be filled.{user has to type}(CLR_2) 
+  0.6x -> +4xp for each correct ans
+
+-Complete sentence formation, sentence spoken in advance and options provided to help complete form the original sentence.(CSF)
+  0.6x -> +8xp for each correct ans
+
+formula of xp 
+count of particular q type is represented by its abbreveation
+(FPR_1*5  +  FPR_2*10  +  FPR_3*20  +  CLR_1*2  +  CLR_2*4  +  CSF*8) + (FPR_1  + FPR_2  + FPR_3  + CLR_1  +  CLR_2  +  CSF)  *  (SPEED - 0.6)  *  (30/2)
+
+wordCount<time<NoOfQ
+
+Difficulty rise plan
+
+*Base level 
+-speed = 0.6x
+-total q = 5
+-q typr = CLR_1
+change in every 2 simmilar
 
 
 {Params}
