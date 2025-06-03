@@ -1,0 +1,104 @@
+LIMITS OF GEMINI 2.0 FLASH
+Requests Per Minute = 15   
+Tokens Per Minute = 1M
+
+Requests Per Day = 1,500
+Tokens Per Day  = -
+
+
+
+CONSIDERATIONS
+-number of question (totalQ = Parameter)
+-each question type count (parameter)
+-Serial number and question type should be properly mentioned in encapsulation. encapsulate int this format →(Question Format(abbreveation)"Serial number").eg(CLR_1"3")
+-Response should contain question and answer in encapsulation.Question in box bracket [] and answer in curly brackets {}
+-get the question answer set of all q in one go
+
+For Paragraph Type Q (FPR_1,FPR_2)
+-Word limit constrained paragraphs and based on decent topics which connect to all (topic = Parameter, word limit = Parameter)
+-For the paragraph type q (FPR_1,FRP_2) provide the words which are used  and which are not used in the answer of that Q
+  format = {IN-words
+OUT-words}
+
+For Sentence Type Q (CLR_1,CLR_2,CSF)
+-Form senetnces based on WordLimit(Parameter)
+-Suggest word from the sentence to show as blank space and ask from user ...Also suggest the words which are not in the sentnce (3 words)
+format = {BLANK-words
+OUT-words}
+//{try suggesting words on the basis of simmilar pronounciation to create a auditory resolution challenge}
+
+Our target is to get the question as well as expected answer based on our decided difficulty level and parameters of difficulty
+
+
+TOPICS <array>
+
+Family
+Friendships
+Love and Relationships
+Heartbreak
+Parenting
+Loss and Grief
+Physical Health
+Mental Health
+Stress and Anxiety
+Sleep and Rest
+Diet and Nutrition
+Hobbies and Passions
+Education
+Learning and Curiosity
+Career and Work
+Financial Struggles
+Ambitions and Dreams
+Success and Failure
+Technology
+Social Media
+Smartphones and Connectivity
+Online Identity
+Childhood Memories
+Growing Up
+Aging and Elderhood
+Change and Uncertainty
+Regret and Reflection
+Hope and Resilience
+Fear and Courage
+Migration and Belonging
+Culture and Traditions
+Food and Cooking
+Music and Dance
+Art and Creativity
+Language and Communication
+Festivals and Celebrations
+Religion and Spirituality
+Belief Systems
+Purpose and Meaning
+Death and Afterlife
+Nature and Environment
+Weather and Climate
+Traveling
+Home and Shelter
+Safety and Security
+Freedom and Expression
+Human Rights
+Empathy and Kindness
+Loneliness
+Identity and Self-Acceptance
+Humor and Laughter
+Jokes and Memes
+Storytelling
+Books and Movies
+Personal Growth
+Forgiveness
+Trust and Betrayal
+Community and Belonging
+Time and Memories
+Self-Doubt and Confidence
+Sacrifice
+Generosity
+Karma and Fate
+Ethics and Morality
+Gratitude
+Dreams (literal and symbolic)
+Sleep and Nightmares
+First Times (first love, job, etc.)
+Milestones (weddings, graduation, etc.)
+Celebrating Achievements
