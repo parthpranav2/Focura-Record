@@ -1,3 +1,79 @@
+Finalised Prompt
+
+'''
+Do not include any introductory phrases or explanations—simply return the questions itself.
+
+[fpr_1: [Create a short paragraph on {topic} of atleast {passage_length1} words](Pick a random word which only appears one time from this short passage){{Give 5 words not in this passage}}]
+Produce this for {fpr_1_count} times
+
+[fpr_2: [Create a short paragraph on {topic} of atleast {passage_length2} words](Pick {dashes_fpr} random words which only appears one time from this short passage){{Give 5 words not in this passage}}]
+Produce this for {fpr_2_count} times
+
+[clr_1: [Create a sentence on {topic} from the generated paragraph which begins with captal letter till full stop.](Pick a random word which only appears one time from this sentence){{Give 5 words not in this sentence}}]
+Produce this for {clr_1_count} times
+
+[clr_2: [Create a sentence on {topic} from the generated paragraph which begins with captal letter till full stop.](Pick a random word which only appears one time from this sentence)]
+Produce this for {clr_2_count} times
+
+[csf: [Create a sentence on {topic} from the generated paragraph which begins with captal letter till full stop]]
+Produce this for {csf_count} times
+
+Format rules:[
+1. ID format: 
+2. Question: In (...)
+3. Answers: in {{...}}
+]
+
+Difficulty settings:
+- Paragraph complexity: {paragraphComplexity} (1-5) with 5 representing English master, 4 English teacher, 3 english college, 2 english school, 1 simple english
+- Sentence complexity: {sentenceComplexity} (1-5) with 5 representing English master, 4 English teacher, 3 english college, 2 english school, 1 simple english
+- Distractor similarity: $distractorSimilarity (1-5)
+
+Output structure: (in from of dictionary)
+{{
+  "fpr_1" : [
+      "id": "(FPR_1"1")",
+      "question": "[Passage from Paragraph]",
+      "answer": (The random word which only appears one time in passage)
+      "Wrong": {{The words not in passage}}
+  ],
+  "fpr_2" : [
+      "id": "(FPR_2"1")",
+      "question": "[Passage from Paragraph]",
+      "answer": (The {dashes_fpr} random words which only appears one time in passage)
+      "Wrong": {{The words not in passage}}
+  ],
+  "clr_1" : [
+      "id": "(CLR_1"1")",
+      "question": "[Sentence]",
+      "answer": (The random word which only appears one time in sentence)
+      "Wrong": {{The words not in sentence}}
+  ],
+  "clr_2" : [
+      "id": "(CLR_2"1")",
+      "question": "[Sentence]",
+      "answer": (The random word which only appears one time in passage)
+  ],
+  "csf" : [
+      "id": "(CSF"1")",
+      "question": "[Sentence]",
+  ]
+}}
+
+Ensure: No json format or python format
+'''
+
+
+
+
+
+
+
+
+
+
+
+
 LIMITS OF GEMINI 2.0 FLASH
 Requests Per Minute = 15   
 Tokens Per Minute = 1M
