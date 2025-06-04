@@ -65,6 +65,118 @@ Ensure: No json format or python format
 
 
 
+CORROSPONDING RESPONSE
+
+Params input
+
+topic = np.random.choice(topics)
+fpr_1_count = 3
+fpr_2_count = 3
+clr_1_count = 3
+clr_2_count = 3
+csf_count = 3
+passage_length1 = 50
+passage_length2 = 50
+sentence_length = 10
+dashes_fpr =  3
+paragraphComplexity = 3
+sentenceComplexity = 3
+
+Output response
+
+{
+  "fpr_1" : [
+      {
+          "id": "(FPR_11)",
+          "question": "[Migration and belonging are intertwined, shaping individual identities and societal structures. The experience of moving from one place to another can create a sense of displacement, but it can also foster a broader understanding of different cultures and perspectives. Integration into a new community often involves navigating unfamiliar customs and languages, while maintaining connections to one's heritage. This complex interplay of adaptation and preservation defines the migrant experience, contributing to a richer, more diverse world. The challenge lies in creating inclusive societies that value both the contributions of newcomers and the established residents.]",
+          "answer": "intertwined",
+          "Wrong": {"house", "tree", "sun", "moon", "star"}
+      },
+      {
+          "id": "(FPR_12)",
+          "question": "[Migration, a global phenomenon, profoundly impacts both the sending and receiving countries. It influences economic growth, demographic shifts, and social dynamics. For migrants, the decision to relocate is often driven by the pursuit of better opportunities, whether economic, educational, or personal. However, the journey can be fraught with challenges, including discrimination, cultural barriers, and legal complexities. Belonging, therefore, becomes a crucial aspect of successful integration, requiring mutual understanding and respect between migrants and host communities.]",
+          "answer": "phenomenon",
+          "Wrong": {"dog", "cat", "bird", "fish", "rock"}
+      },
+      {
+          "id": "(FPR_13)",
+          "question": "[The concept of belonging is deeply rooted in human psychology and social identity. Migration disrupts established senses of place and community, forcing individuals to redefine their sense of self within new contexts. This process involves negotiating cultural differences, forging new relationships, and adapting to unfamiliar norms. While the experience can be alienating, it can also lead to personal growth and a broadened worldview. Ultimately, fostering a sense of belonging for migrants requires creating inclusive environments that embrace diversity and promote social cohesion.]",
+          "answer": "norms",
+          "Wrong": {"sky", "grass", "sand", "fire", "wind"}
+      }
+  ],
+  "fpr_2" : [
+      {
+          "id": "(FPR_21)",
+          "question": "[Migration and belonging are intertwined, shaping individual identities and societal structures. The experience of moving from one place to another can create a sense of displacement, but it can also foster a broader understanding of different cultures and perspectives. Integration into a new community often involves navigating unfamiliar customs and languages, while maintaining connections to one's heritage. This complex interplay of adaptation and preservation defines the migrant experience, contributing to a richer, more diverse world. The challenge lies in creating inclusive societies that value both the contributions of newcomers and the established residents.]",
+          "answer": ["adaptation", "migrant", "residents"],
+          "Wrong": {"cloud", "ocean", "river", "lake", "soil"}
+      },
+      {
+          "id": "(FPR_22)",
+          "question": "[Migration, a global phenomenon, profoundly impacts both the sending and receiving countries. It influences economic growth, demographic shifts, and social dynamics. For migrants, the decision to relocate is often driven by the pursuit of better opportunities, whether economic, educational, or personal. However, the journey can be fraught with challenges, including discrimination, cultural barriers, and legal complexities. Belonging, therefore, becomes a crucial aspect of successful integration, requiring mutual understanding and respect between migrants and host communities.]",
+          "answer": ["fraught", "driven", "demographic"],
+          "Wrong": {"pencil", "paper", "book", "desk", "chair"}
+      },
+      {
+          "id": "(FPR_23)",
+          "question": "[The concept of belonging is deeply rooted in human psychology and social identity. Migration disrupts established senses of place and community, forcing individuals to redefine their sense of self within new contexts. This process involves negotiating cultural differences, forging new relationships, and adapting to unfamiliar norms. While the experience can be alienating, it can also lead to personal growth and a broadened worldview. Ultimately, fostering a sense of belonging for migrants requires creating inclusive environments that embrace diversity and promote social cohesion.]",
+          "answer": ["disrupts", "contexts", "alienating"],
+          "Wrong": {"plate", "cup", "fork", "knife", "spoon"}
+      }
+  ],
+  "clr_1" : [
+      {
+          "id": "(CLR_11)",
+          "question": "[Migration and belonging are intertwined, shaping individual identities and societal structures.]",
+          "answer": "intertwined",
+          "Wrong": {"yesterday", "tomorrow", "today", "night", "morning"}
+      },
+      {
+          "id": "(CLR_12)",
+          "question": "[Migration, a global phenomenon, profoundly impacts both the sending and receiving countries.]",
+          "answer": "phenomenon",
+          "Wrong": {"purple", "orange", "brown", "grey", "black"}
+      },
+      {
+          "id": "(CLR_13)",
+          "question": "[The concept of belonging is deeply rooted in human psychology and social identity.]",
+          "answer": "rooted",
+          "Wrong": {"zero", "one", "two", "three", "four"}
+      }
+  ],
+  "clr_2" : [
+      {
+          "id": "(CLR_21)",
+          "question": "[Migration and belonging are intertwined, shaping individual identities and societal structures.]",
+          "answer": "intertwined"
+      },
+      {
+          "id": "(CLR_22)",
+          "question": "[Migration, a global phenomenon, profoundly impacts both the sending and receiving countries.]",
+          "answer": "phenomenon"
+      },
+      {
+          "id": "(CLR_23)",
+          "question": "[The concept of belonging is deeply rooted in human psychology and social identity.]",
+          "answer": "rooted"
+      }
+  ],
+  "csf" : [
+      {
+          "id": "(CSF1)",
+          "question": "[Migration and belonging are intertwined, shaping individual identities and societal structures.]"
+      },
+      {
+          "id": "(CSF2)",
+          "question": "[Migration, a global phenomenon, profoundly impacts both the sending and receiving countries.]"
+      },
+      {
+          "id": "(CSF3)",
+          "question": "[The concept of belonging is deeply rooted in human psychology and social identity.]"
+      }
+  ]
+}
 
 
 
