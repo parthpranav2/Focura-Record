@@ -167,6 +167,12 @@ Shrishti
 profile UI completion
 settings UI completion
 
+03/06/2025
+Parth
+-Made floating card view which apper on clicking any level
+-finalised and created the basic structure of Tasks view holder (Activity) for Auditory Read out section and associated fragments (Blank Fragments)
+-Ui improvements in implementation part
+
 04/06/2025
 Parth
 -making view model for auditory read out
