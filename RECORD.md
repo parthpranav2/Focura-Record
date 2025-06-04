@@ -161,3 +161,8 @@ Parth
 -Implemented top sheet fragment for lives remaining
 -profile ui completion
 -settings ui completion
+
+Shrishti
+-plan the screen of Auditory mode 
+profile UI completion
+settings UI completion
