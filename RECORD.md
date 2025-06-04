@@ -175,6 +175,7 @@ Parth
 
 04/06/2025
 Parth
+-finalised auditory readout level planner 
 -making view model for auditory read out
 -made view model in common to graphic and auditory
 -linked heart,xp count
