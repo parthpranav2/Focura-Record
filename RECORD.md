@@ -166,3 +166,16 @@ Shrishti
 -plan the screen of Auditory mode 
 profile UI completion
 settings UI completion
+
+04/06/2025
+Parth
+-making view model for auditory read out
+-made view model in common to graphic and auditory
+-linked heart,xp count
+-linked csv file of auditory readout to the project
+-made a object to fetch data from csv
+-linked the csv data extractor to view model
+-extracted data from the csv to complete prompt for gemini
+-fetched respoonse in json format
+-sanitised the recived json
+-channeled the data of individual q in a structured way and safely isolated each q by storing them in q type specific data class
