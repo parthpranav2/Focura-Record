@@ -186,3 +186,6 @@ Parth
 -fetched respoonse in json format
 -sanitised the recived json
 -channeled the data of individual q in a structured way and safely isolated each q by storing them in q type specific data class
+
+Soumik
+-Finalsied the prompt for gemini which generate all data for a level in one go
